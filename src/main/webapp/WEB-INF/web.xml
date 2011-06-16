@@ -1,0 +1,10 @@
+<webapp>
+	<servlet>	
+		<servlet-class>no.steria.kata.exstartup.ExStartupServer</servlet-class>
+		<servlet-name>exstartupServer</servlet-name>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exstartupServer</servlet-name>
+		<url-pattern>startup/*</url-pattern>
+	</servlet-mapping>
+</webapp>
