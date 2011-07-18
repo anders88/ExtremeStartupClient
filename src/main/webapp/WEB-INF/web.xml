@@ -1,6 +1,6 @@
 <webapp>
 	<servlet>	
-		<servlet-class>no.steria.kata.exstartup.ExStartupServer</servlet-class>
+		<servlet-class>no.steria.kata.exstartup.ExStartupServlet</servlet-class>
 		<servlet-name>exstartupServer</servlet-name>
 	</servlet>
 	<servlet-mapping>
