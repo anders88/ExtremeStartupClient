@@ -22,9 +22,9 @@ public class ExStartupServlet extends HttpServlet {
 			throws ServletException, IOException {
 		PrintWriter writer = resp.getWriter();
 		String parameter = req.getParameter("q");
-		String question = parameter.split(":")[1].trim();
+		String question = parameter;
 		String answer = answerMachine.answer(question);
-		logger.debug("Q: " + question + " ? -> " + answer);
+		logger.debug("Q: '" + question + "' ? -> " + answer);
 		writer.append(answer);
 	}
 }
